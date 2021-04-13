@@ -21,7 +21,7 @@ Hooks.on('getSceneControlButtons', (controls) => {
     controls.find((c) => c.name === 'token').tools.push({
         name: 'DaylightTracker',
         title: game.i18n.localize('DAYTRACKER.Title'),
-        icon: 'fas fa-sun-o',
+        icon: 'fas fa-sun',
         // onClick() {
         //     new ParticleFXApplication(
         //         { title: 'ParticleFX Emitter Editor' }, {
