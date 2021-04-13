@@ -1,5 +1,5 @@
 {
-    "name": "fl-daytime-tracker",
+    "name": "fbl-daytime-tracker",
     "title": "Forbidden Lands: Daytime Tracker",
     "description": "Helps you track quarter days in forbidden lands.",
     "author": "Nicolai Søndergaard",
@@ -11,7 +11,6 @@
           "path": "lang/en.json"
         }
     ],
-    "system": "forbidden-lands",
     "compatibleCoreVersion": "0.7.9",
     "minimumCoreVersion": "0.7.9",
     "esmodules": ["scripts/daytime_tracker.js"],
