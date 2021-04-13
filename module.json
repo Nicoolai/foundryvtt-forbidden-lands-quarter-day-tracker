@@ -1,0 +1,25 @@
+{
+    "name": "fl-daytime-tracker",
+    "title": "Forbidden Lands: Daytime Tracker",
+    "description": "Helps you track quarter days in forbidden lands.",
+    "author": "Nicolai Søndergaard",
+    "version": "0.1.0",
+    "languages": [
+        {
+          "lang": "en",
+          "name": "English",
+          "path": "lang/en.json"
+        }
+    ],
+    "system": "forbidden-lands",
+    "compatibleCoreVersion": "0.7.9",
+    "minimumCoreVersion": "0.7.9",
+    "esmodules": ["scripts/daytime_tracker.js"],
+    "authors": [
+      {
+        "name": "Nicolai Søndergaard",
+        "email": "Nicolai.Sondergaard@gmail.com",
+        "url": "https://github.com/nicoolai/"
+      }
+    ]
+}
