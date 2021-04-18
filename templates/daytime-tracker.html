@@ -1,11 +1,11 @@
 <form class="flexcol">
     <div class="form-group">
-        {{selectedQuarter.Name}}
+        <h1>{{selectedQuarter.Name}}</h1>
     </div>
     <div class="form-group">
-        <button id="morning" data-name="DAYTRACKER.morning" data-value="0">{{game.i18n.localize("DAYTRACKER.morning")}}</button>
-        <button id="midday" data-name="DAYTRACKER.midday" data-value="1">{{game.i18n.localize("DAYTRACKER.midday")}}</button>
-        <button id="evening" data-name="DAYTRACKER.evening" data-value="2">{{game.i18n.localize("DAYTRACKER.evening")}}</button>
-        <button id="night" data-name="DAYTRACKER.night" data-value="3">{{game.i18n.localize("DAYTRACKER.night")}}</button>
+        <button id="morning" data-name="DAYTRACKER.morning" data-value="0">{{quarters.morning}}</button>
+        <button id="midday" data-name="DAYTRACKER.midday" data-value="1">{{quarters.midday}}</button>
+        <button id="evening" data-name="DAYTRACKER.evening" data-value="2">{{quarters.evening}}</button>
+        <button id="night" data-name="DAYTRACKER.night" data-value="3">{{quarters.night}}</button>
     </div>
 </form>

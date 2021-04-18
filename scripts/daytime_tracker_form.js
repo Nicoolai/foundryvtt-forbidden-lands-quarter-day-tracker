@@ -20,7 +20,17 @@ export class DaytimeTrackerForm extends FormApplication {
     async getData() {
         // Return data to the template
         return {
-            selectedQuarter: "Morning"
+            selectedQuarter: {
+                Name: game.i18n.localize("DAYTRACKER.morning"),
+                IsDark: false,
+                Id: "morning"
+            },
+            quarters: {
+                morning: game.i18n.localize("DAYTRACKER.morning"),
+                midday: game.i18n.localize("DAYTRACKER.midday"),
+                evening: game.i18n.localize("DAYTRACKER.evening"),
+                night: game.i18n.localize("DAYTRACKER.night"),
+            }
         }
     }
 }
