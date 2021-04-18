@@ -12,7 +12,7 @@ export class DaytimeTrackerForm extends FormApplication {
         options.popOut = true;
         options.width = 600;
         options.height = "auto";
-        options.template = "daytime-tracker.html"
+        options.template = "../templates/daytime-tracker.html"
 
         return options;
     }
