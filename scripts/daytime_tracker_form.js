@@ -20,4 +20,3 @@ export class DaytimeTrackerForm extends FormApplication {
         // Return data to the template
     }
 }
-window.DaytimeTrackerForm = DaytimeTrackerForm;
