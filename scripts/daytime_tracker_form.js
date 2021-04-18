@@ -29,7 +29,7 @@ export class DaytimeTrackerForm extends FormApplication {
                 morning: game.i18n.localize("DAYTRACKER.morning"),
                 midday: game.i18n.localize("DAYTRACKER.midday"),
                 evening: game.i18n.localize("DAYTRACKER.evening"),
-                night: game.i18n.localize("DAYTRACKER.night"),
+                night: game.i18n.localize("DAYTRACKER.night")
             }
         }
     }
