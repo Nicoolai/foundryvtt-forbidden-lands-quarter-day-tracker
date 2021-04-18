@@ -21,3 +21,4 @@ class daytimeTrackerForm extends FormApplication {
         // Return data to the template
     }
 }
+window.daytimeTrackerForm = daytimeTrackerForm;
