@@ -1,5 +1,9 @@
 {
     "DAYTRACKER.WelcomeMessage": "Welcome to Daytime Tracker module, a module developed in order to easily keep track of which quarter day it is, in Forbidden Lands RPG",
     "DAYTRACKER.Config": "Daytime Tracker Configuration",
-    "DAYTRACKER.Title": "Daytime Tracker"
+    "DAYTRACKER.Title": "Daytime Tracker",
+    "DAYTRACKER.morning": "Morning",
+    "DAYTRACKER.midday": "Midday",
+    "DAYTRACKER.evening": "Evening",
+    "DAYTRACKER.night": "Night"
 }

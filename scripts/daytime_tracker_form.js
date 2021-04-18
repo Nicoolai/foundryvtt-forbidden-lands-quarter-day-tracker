@@ -1,3 +1,4 @@
+import * as settings from "./settings.js";
 export class DaytimeTrackerForm extends FormApplication {
     constructor(...args){
         super(...args);
@@ -18,5 +19,8 @@ export class DaytimeTrackerForm extends FormApplication {
 
     async getData() {
         // Return data to the template
+        return {
+            selectedQuarter: "Morning"
+        }
     }
 }
