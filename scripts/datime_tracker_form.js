@@ -1,4 +1,4 @@
-class daytimeTrackerForm extends FormApplication {
+class DaytimeTrackerForm extends FormApplication {
     constructor(...args){
         super(...args);
         game.users.apps.push(this);
@@ -21,4 +21,4 @@ class daytimeTrackerForm extends FormApplication {
         // Return data to the template
     }
 }
-window.daytimeTrackerForm = daytimeTrackerForm;
+window.DaytimeTrackerForm = DaytimeTrackerForm;

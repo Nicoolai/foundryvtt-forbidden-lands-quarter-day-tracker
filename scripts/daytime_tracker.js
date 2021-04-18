@@ -1,4 +1,5 @@
 import * as settings from "./settings.js";
+import {DaytimeTrackerForm} from './daytime_tracker_form.js'
 console.log("Daytime Tracker Module Loaded.");
 
 Hooks.on('init', () => {
@@ -24,7 +25,7 @@ Hooks.on('getSceneControlButtons', (controls) => {
         icon: 'fas fa-sun',
         onClick() {
             console.log("new version.");
-            new daytimeTrackerForm("").render(true);
+            new DaytimeTrackerForm("").render(true);
         },
         button: true,
     });
