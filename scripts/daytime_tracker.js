@@ -1,5 +1,5 @@
 import * as settings from "./settings.js";
-import {DaytimeTrackerForm} from './daytime_tracker_form.js'
+import {DaytimeTrackerForm} from "./datime_tracker_form.js";
 console.log("Daytime Tracker Module Loaded.");
 
 Hooks.on('init', () => {
