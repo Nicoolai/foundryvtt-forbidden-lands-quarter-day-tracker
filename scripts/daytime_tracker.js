@@ -22,16 +22,9 @@ Hooks.on('getSceneControlButtons', (controls) => {
         name: 'DaylightTracker',
         title: game.i18n.localize('DAYTRACKER.Title'),
         icon: 'fas fa-sun',
-        // onClick() {
-        //     new ParticleFXApplication(
-        //         { title: 'ParticleFX Emitter Editor' }, {
-        //         classes: 'particlefx-editor',
-        //         width: 750,
-        //         height: 750,
-        //         resizable: true,
-        //     }, 'EmitterEditor',
-        //     );
-        // },
+        onClick() {
+            new daytimeTrackerForm().render(true);
+        },
         button: true,
     });
 });
