@@ -5,16 +5,15 @@ export class DaytimeTrackerForm extends FormApplication {
     }
 
     static get defaultOptions() {
-        const options = super.defaultOptions;
-        options.title = game.i18n.localize("DAYTRACKER.Title");
-        options.id = "daytimetracker";
-        options.closeOnSubmit = false;
-        options.popOut = true;
-        options.width = 600;
-        options.height = "auto";
-        options.template = "./templates/daytime-tracker.html"
-
-        return options;
+        return mergeObject(super.defaultOptions, {
+            title: game.i18n.localize("DAYTRACKER.Title"),
+            id: "daytimetracker",
+            closeOnSubmit: false,
+            popOut: true,
+            width: 600,
+            height: "auto",
+            template: "modules/fbl-daytime-tracker/templates/daytime-tracker.html"
+        });
     }
 
     async getData() {
