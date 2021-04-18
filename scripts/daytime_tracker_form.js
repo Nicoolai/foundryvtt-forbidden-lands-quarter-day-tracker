@@ -1,4 +1,4 @@
-class DaytimeTrackerForm extends FormApplication {
+export class DaytimeTrackerForm extends FormApplication {
     constructor(...args){
         super(...args);
         game.users.apps.push(this);
