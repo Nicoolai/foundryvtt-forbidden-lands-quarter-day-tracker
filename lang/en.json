@@ -3,7 +3,7 @@
     "DAYTRACKER.Config": "Daytime Tracker Configuration",
     "DAYTRACKER.Title": "Daytime Tracker",
     "DAYTRACKER.morning": "Morning",
-    "DAYTRACKER.midday": "Midday",
+    "DAYTRACKER.daytime": "Daytime",
     "DAYTRACKER.evening": "Evening",
     "DAYTRACKER.night": "Night"
 }
