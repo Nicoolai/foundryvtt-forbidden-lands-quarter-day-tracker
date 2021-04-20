@@ -12,7 +12,7 @@ export class DaytimeTrackerForm extends FormApplication {
             closeOnSubmit: false,
             popOut: true,
             width: 600,
-            height: 600,
+            height: 450,
             template: "modules/fbl-daytime-tracker/templates/daytime-tracker.html"
         });
     }
@@ -26,10 +26,22 @@ export class DaytimeTrackerForm extends FormApplication {
                 Id: "morning"
             },
             quarters: {
-                morning: game.i18n.localize("DAYTRACKER.morning"),
-                midday: game.i18n.localize("DAYTRACKER.midday"),
-                evening: game.i18n.localize("DAYTRACKER.evening"),
-                night: game.i18n.localize("DAYTRACKER.night")
+                morning: { 
+                    Name: game.i18n.localize("DAYTRACKER.morning"),
+                    IsDark: false
+                },
+                midday: {
+                    Name: game.i18n.localize("DAYTRACKER.midday"),
+                    IsDark: false
+                },
+                evening: { 
+                    Name: game.i18n.localize("DAYTRACKER.evening"),
+                    IsDark: true
+                },
+                night: {
+                    Name: game.i18n.localize("DAYTRACKER.night"),
+                    IsDark: true
+                }
             }
         }
     }
