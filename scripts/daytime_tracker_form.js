@@ -11,7 +11,7 @@ export class DaytimeTrackerForm extends FormApplication {
             id: "daytimetracker",
             closeOnSubmit: false,
             popOut: true,
-            width: 900,
+            width: 600,
             height: 600,
             template: "modules/fbl-daytime-tracker/templates/daytime-tracker.html"
         });

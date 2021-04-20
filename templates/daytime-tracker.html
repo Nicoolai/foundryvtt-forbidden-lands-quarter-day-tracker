@@ -1,31 +1,27 @@
-<form class="flexcol">
+<form>
     <div class="form-group">
         <h1>{{selectedQuarter.Name}}</h1>
     </div>
     <div class="form-group">
-        <div>
+        <div class="container">
             <input type="image" src="modules/fbl-daytime-tracker/artwork/morning.png" alt="{{quarters.morning}}"
                 data-value="0" data-name="morning" />
-            <span>{{quarters.morning}}</span>
+            <div class="bottom-centered">{{quarters.morning}}</div>
         </div>
-        <div>
-            <input type="image" src="modules/fbl-daytime-tracker/artwork/daytime.png" alt="{{quarters.daytime}}"
+        <div class="container">
+            <input type="image" src="modules/fbl-daytime-tracker/artwork/daytime.png" alt="{{quarters.midday}}"
                 data-value="1" data-name="daytime" />
-            <span>{{quarters.midday}}</span>
+            <div class="bottom-centered">{{quarters.midday}}</div>
         </div>
-        <div>
+        <div class="container">
             <input type="image" src="modules/fbl-daytime-tracker/artwork/evening.png" alt="{{quarters.evening}}"
                 data-value="2" data-name="morning" />
-            <span>{{quarters.evening}}</span>
+            <div class="bottom-centered">{{quarters.evening}}</div>
         </div>
-        <div>
+        <div class="container">
             <input type="image" src="modules/fbl-daytime-tracker/artwork/night.png" alt="{{quarters.night}}"
                 data-value="3" data-name="morning" />
-            <span>{{quarters.night}}</span>
+            <div class="bottom-centered">{{quarters.night}}</div>
         </div>
-        <!-- <button id="morning" data-name="DAYTRACKER.morning" data-value="0"><img src="modules/fbl-daytime-tracker/artwork/morning.png" />{{quarters.morning}}</button>
-        <button id="midday" data-name="DAYTRACKER.midday" data-value="1"><img src="modules/fbl-daytime-tracker/artwork/daytime.png" />{{quarters.midday}}</button>
-        <button id="evening" data-name="DAYTRACKER.evening" data-value="2"><img src="modules/fbl-daytime-tracker/artwork/evening.png" />{{quarters.evening}}</button>
-        <button id="night" data-name="DAYTRACKER.night" data-value="3"><img src="modules/fbl-daytime-tracker/artwork/night.png" />{{quarters.night}}</button> -->
     </div>
 </form>
