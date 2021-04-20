@@ -3,13 +3,13 @@
         <h1>{{selectedQuarter.Name}}</h1>
     </div>
     <div class="form-group">
-        <input type="image" src="modules/fbl-daytime-tracker/artwork/morning.png" />
-        <input type="image" src="modules/fbl-daytime-tracker/artwork/daytime.png" />
-        <input type="image" src="modules/fbl-daytime-tracker/artwork/evening.png" />
-        <input type="image" src="modules/fbl-daytime-tracker/artwork/night.png" />
-        <!-- <button id="morning" data-name="DAYTRACKER.morning" data-value="0">{{quarters.morning}}</button>
-        <button id="midday" data-name="DAYTRACKER.midday" data-value="1">{{quarters.midday}}</button>
-        <button id="evening" data-name="DAYTRACKER.evening" data-value="2">{{quarters.evening}}</button>
-        <button id="night" data-name="DAYTRACKER.night" data-value="3">{{quarters.night}}</button> -->
+        <!-- <input type="image" src="modules/fbl-daytime-tracker/artwork/morning.png" alt="{{quarters.morning}}" data-value="0" data-name="morning" />
+        <input type="image" src="modules/fbl-daytime-tracker/artwork/daytime.png" alt="{{quarters.daytime}}" data-value="1" data-name="daytime" />
+        <input type="image" src="modules/fbl-daytime-tracker/artwork/evening.png" alt="{{quarters.evening}}" data-value="2" data-name="morning" />
+        <input type="image" src="modules/fbl-daytime-tracker/artwork/night.png" alt="{{quarters.night}}" data-value="3" data-name="morning" /> -->
+        <button id="morning" data-name="DAYTRACKER.morning" data-value="0"><img src="modules/fbl-daytime-tracker/artwork/morning.png" />{{quarters.morning}}</button>
+        <button id="midday" data-name="DAYTRACKER.midday" data-value="1"><img src="modules/fbl-daytime-tracker/artwork/daytime.png" />{{quarters.midday}}</button>
+        <button id="evening" data-name="DAYTRACKER.evening" data-value="2"><img src="modules/fbl-daytime-tracker/artwork/evening.png" />{{quarters.evening}}</button>
+        <button id="night" data-name="DAYTRACKER.night" data-value="3"><img src="modules/fbl-daytime-tracker/artwork/night.png" />{{quarters.night}}</button>
     </div>
 </form>
